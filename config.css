@@ -1,0 +1,187 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://img.freepik.com/premium-vector/cyber-security-concept-with-hud-element-blue-tone-background_99087-130.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.vid{
+	border-radius: 10px;
+}
+
+.made-by{
+	color: whitesmoke;
+}
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 11px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: black;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+.logo {
+	float: left;
+}
+.logo img {
+    width: 20%;
+	padding: 15px 0;
+}
+
+.right a:hover{
+    color: whitesmoke;
+}
+
+.marginfix{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+body{
+font-family: 'Chivo Mono', monospace;
+font-family: 'Poppins', sans-serif;
+}
+
+.toc{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.video{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRUmnmsVSy4b5pMj1eP5BV7uEhFEJ_KTxjBA&usqp=CAU);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.survey{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiorhjwazWRkRA28wXdXQSdu9O5MUtosp4XA&usqp=CAU);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.about{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.research{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+}
+
+form input, form textarea{
+	border: 0;
+	margin: 10px 0;
+	padding: 10px;
+	outline: none;
+	background: #f5f5f5;
+	font-size: 16px;
+	border-radius: 10px;
+	align-items: center;
+}
+
+form button{
+	padding: 15px;
+	background: rgb(29, 189, 130);
+	color: black;
+	font-size: 18px;
+	border: 0;
+	cursor: pointer;
+	width: 125px;
+	margin: 20px auto 0;
+	border-radius: 10px;
+}
