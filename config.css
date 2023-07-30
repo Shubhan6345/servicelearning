@@ -5,11 +5,13 @@
 }
 
 nav{
-    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://img.freepik.com/premium-vector/cyber-security-concept-with-hud-element-blue-tone-background_99087-130.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	position: relative;
+	position: center;
+	align-items: center;
+	color: black;
+	background-image: url("/Web/servicelearning/img\ 1.png");
 }
 
 .vid{
@@ -17,39 +19,52 @@ nav{
 }
 
 .made-by{
-	color: whitesmoke;
+	color: black;
+}
+
+.text-box{
+	width: 90%;
+	position: absolute;
+	color: black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
 }
 
 .nav-area {
-	float: right;
 	list-style: none;
-	margin-top: 20px;
+	float: none;
+	padding: 10px 12px;
+    text-align: center;
 }
 .nav-area li {
 	display: inline-block;
 }
 .nav-area li a {
-	color: #fff;
+	color: black;
 	text-decoration: none;
-	padding: 5px 11px;
+	padding: 10px 11px;
 	font-family: poppins;
 	font-size: 16px;
 	text-transform: uppercase;
 }
 .nav-area li a:hover {
-	background: #fff;
-	color: black;
+	background: black;
+	color: whitesmoke;
 }
 .welcome-text {
-	position: absolute;
+	position: center;
 	width: 600px;
 	height: 300px;
-	margin: 20% 30%;
 	text-align: center;
+	float: none;
+    align-items: center;
 }
+
 .welcome-text h1 {
 	text-align: center;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 	font-size: 60px;
 }
@@ -64,19 +79,11 @@ nav{
 	font-size: 14px;
 	margin-top: 20px;
 	display: inline-block;
-	color: #fff;
-}
-
-.logo {
-	float: left;
-}
-.logo img {
-    width: 20%;
-	padding: 15px 0;
+	color: black;
 }
 
 .right a:hover{
-    color: whitesmoke;
+    color: black;
 }
 
 .marginfix{
@@ -85,12 +92,12 @@ nav{
 }
 
 body{
-font-family: 'Chivo Mono', monospace;
-font-family: 'Poppins', sans-serif;
+	font-family: 'Chivo Mono', monospace;
+	font-family: 'Poppins', sans-serif;
+	color: black;
 }
 
 .toc{
-    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -98,61 +105,61 @@ font-family: 'Poppins', sans-serif;
 	position: relative;
     color: whitesmoke;
     text-align: center;
+	color: black;
 }
 
 .video{
-    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRUmnmsVSy4b5pMj1eP5BV7uEhFEJ_KTxjBA&usqp=CAU);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	position: relative;
-    color: whitesmoke;
     text-align: center;
+	color: black;
+	background: rgb(227,219,233);
+background: radial-gradient(circle, rgba(227,219,233,1) 3%, rgba(178,183,223,1) 100%);
 }
 
 .survey{
-    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiorhjwazWRkRA28wXdXQSdu9O5MUtosp4XA&usqp=CAU);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	position: relative;
-    color: whitesmoke;
     text-align: center;
+	color: black;
 }
 
 .about{
-    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	position: relative;
-    color: whitesmoke;
+	color: black;
     text-align: center;
 }
 
 .research{
-    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	position: relative;
-    color: whitesmoke;
+    color: black;
     text-align: center;
 }
 
 .contact{
-    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	position: relative;
-    color: whitesmoke;
+    color: black;
     text-align: center;
+	background: rgb(227,219,233);
+background: radial-gradient(circle, rgba(227,219,233,1) 3%, rgba(208,178,223,1) 100%);
 }
 
 form{
@@ -168,7 +175,7 @@ form input, form textarea{
 	margin: 10px 0;
 	padding: 10px;
 	outline: none;
-	background: #f5f5f5;
+	background: black;
 	font-size: 16px;
 	border-radius: 10px;
 	align-items: center;
@@ -176,7 +183,7 @@ form input, form textarea{
 
 form button{
 	padding: 15px;
-	background: rgb(29, 189, 130);
+	background: rgb(129, 225, 177);
 	color: black;
 	font-size: 18px;
 	border: 0;
@@ -184,4 +191,55 @@ form button{
 	width: 125px;
 	margin: 20px auto 0;
 	border-radius: 10px;
+}
+
+form button:hover{
+	color: rgb(129, 225, 177);
+	background: black;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+}
+  
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #26292a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #3f3f3f;
+}
+
+.sub-text-box{
+	width: 90%;
+	position: absolute;
+	color: black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	color: #3f3f3f;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.icons .fa{
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+	color: red;
 }
