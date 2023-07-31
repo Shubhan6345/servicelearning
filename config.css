@@ -185,7 +185,7 @@ form input, form textarea{
 form button{
 	padding: 15px;
 	background: rgb(129, 225, 177);
-	color: black;
+	color: whitesmoke;
 	font-size: 18px;
 	border: 0;
 	cursor: pointer;
